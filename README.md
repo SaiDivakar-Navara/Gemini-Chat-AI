@@ -1,10 +1,10 @@
 # GeminiChat
 
 ## Overview
-GeminiChat is a simple web-based AI chatbot that integrates the Gemini 2.0 API to generate responses based on user input. The input box remains fixed at the bottom of the page, while responses appear in the center and are scrollable for large content.
+GeminiChat is a simple web-based AI chatbot that integrates the Gemini 2.0 API to generate responses based on user input. The application features a clean and responsive interface where users can enter their queries through a fixed input box at the bottom of the page. The AI-generated responses are displayed dynamically in the center of the page, ensuring a seamless and engaging user experience. This project is designed for developers and AI enthusiasts who want to explore AI-driven conversational interfaces.
 
 ## Features
-- Fixed input box at the bottom of the page.
+- Attractive User Interface.
 - Scrollable response display area.
 - Seamless integration with Gemini 2.0 API.
 - Responsive UI with HTML, CSS, and JavaScript.
@@ -31,7 +31,7 @@ python -m ensurepip --default-pip
 
 ### 2. Clone the Repository
 ```sh
-git clone https://github.com/your-username/GeminiChat.git
+git clone https://github.com/SaiDivakar-Navara/Gemini-Chat-AI.git
 cd GeminiChat
 ```
 
