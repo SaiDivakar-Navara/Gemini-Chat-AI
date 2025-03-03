@@ -13,13 +13,15 @@ body {
 .response-container {
     width: 80%;
     max-width: 800px;
-    height: 60vh; /* Takes 60% of screen height */
+    height: 60vh;
     background: white;
     padding: 20px;
-    overflow-y: auto; /* Scrollable when content exceeds */
+    overflow-y: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .input-container {
@@ -57,4 +59,23 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+}
+
+.ai-message {
+    background-color: #f1f1f1;
+    color: black;
+    align-self: flex-start;
 }
